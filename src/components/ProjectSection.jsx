@@ -18,7 +18,16 @@ const projects = [
         image: "/projects/FlipMarket.png",
         tags: ["Laravel", "Livewire", "Tailwind CSS"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/rezerdire/LandingPageSample.git"
+    },
+    {
+        id: 3,
+        title: "E-Commerce Admin Side with CRM Dashboard",
+        description: "A Laravel-powered Filament admin panel with a CRM dashboard, featuring complete CRUD inventory management for products, orders, and customers.",
+        image: "/projects/E-Commerce.png",
+        tags: ["Laravel", "Filament"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/rezerdire/E-COMMERCE.git"  
     }
 ]
 
