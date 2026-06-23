@@ -4,12 +4,12 @@ const skills = [
     // Front-end
     { name: "HTML-CSS", level: 90, category: "front-end" },
     { name: "JavaScript", level: 80, category: "front-end" },
-    { name: "Bootstrap", level: 80, category: "front-end" },
-    { name: "React", level: 45, category: "front-end" },
-    { name: "Tailwind CSS", level: 50, category: "front-end" },
-    { name: "Livewire", level: 60, category: "front-end" },
+    { name: "Bootstrap", level: 100, category: "front-end" },
+    { name: "React", level: 55, category: "front-end" },
+    { name: "Tailwind CSS", level: 90, category: "front-end" },
+    { name: "Livewire", level: 70, category: "front-end" },
     { name: "Vue JS ", level: 10, category: "front-end" },
-    { name: "Alphine JS ", level: 35, category: "front-end" },
+    { name: "Alphine JS ", level: 45, category: "front-end" },
 
     // Back-end
     { name: "C#", level: 75, category: "back-end" },
