@@ -162,10 +162,17 @@
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
 }
 
+.star-background {
+  display: none;
+}
+
+.dark .star-background {
+  display: block;
+}
+
 #root{
   max-width: 100%;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
 
 }
