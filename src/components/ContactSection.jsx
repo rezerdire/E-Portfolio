@@ -87,12 +87,14 @@ export const ContactSection = () => {
 
             {/* Social Links */}
             <div className="pt-8">
-              <h4 className="font-medium mb-4">Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
+              <h4 className="mb-4 text-left font-medium">Connect With Me</h4>
+              <div className="flex justify-start gap-4">
                 <a
                   href="https://www.linkedin.com/in/christian-vacaro-8498b5275/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors hover:bg-primary/20"
                 >
                   <Linkedin />
                 </a>
@@ -100,6 +102,8 @@ export const ContactSection = () => {
                   href="https://www.facebook.com/rezerdire"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors hover:bg-primary/20"
                 >
                   <Facebook />
                 </a>
@@ -107,6 +111,8 @@ export const ContactSection = () => {
                   href="https://www.instagram.com/chrschnl"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors hover:bg-primary/20"
                 >
                   <Instagram />
                 </a>
